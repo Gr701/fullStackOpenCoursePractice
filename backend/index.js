@@ -4,13 +4,13 @@ const cors = require('cors')
 
 app.use(cors())
 app.use(express.json())
+app.use(express.static('dist'))
 app.set('trust proxy', true)
 
 const requestLogger = (request, response, next) => {
   console.log('Method:', request.method)
   console.log('Path:  ', request.path)
   console.log('Body:  ', request.body)
-  console.log('IP:    ', request.ip)
   console.log('------------------------')
   next()
 }
