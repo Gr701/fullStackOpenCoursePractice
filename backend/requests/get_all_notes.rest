@@ -2,7 +2,7 @@ POST http://localhost:3001/api/notes
 Content-Type: application/json
 
 {
-  "content": "Vscode rest client request",
+  "content": "lol",
   "important": true
 }
 
@@ -10,10 +10,10 @@ Content-Type: application/json
 GET http://localhost:3001/api/notes
 
 ###
-DELETE http://localhost:3001/api/notes/6694b461a6d498683becafce
+DELETE http://localhost:3001/api/notes/6694f6e66ce536f6f2e0e017
 
 ###
-PUT http://localhost:3001/api/notes/
+PUT http://localhost:3001/api/notes/66949b4fa660919821c59781
 Content-Type: application/json
 
 {
